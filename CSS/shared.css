@@ -1,0 +1,71 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --brand-green: #27ae60;
+  --brand-white: #fff;
+  --brand-gray: #666666;
+  --brand-black: #000;
+  --light-gray: #f7f7f7;
+  --brand-black2: #140f40;
+  --brand-red: #f00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section__subtitle {
+  font-family: "Satisfy", serif;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__icon {
+  background-color: var(--light-gray);
+  color: var(--brand-black);
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.header__icon:hover {
+  background-color: var(--brand-green);
+  color: var(--brand-white);
+}
+
+.satisfy {
+  font-family: "Satisfy", serif;
+  color: var(--brand-green);
+  font-weight: 400;
+}
